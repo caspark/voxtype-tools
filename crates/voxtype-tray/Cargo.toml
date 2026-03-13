@@ -1,0 +1,10 @@
+[package]
+name = "voxtype-tray"
+version = "0.1.0"
+edition = "2021"
+description = "KDE system tray icon for voxtype"
+
+[dependencies]
+ksni = { version = "0.3.3", features = ["tokio"] }
+serde_json = "1"
+tokio = { version = "1", features = ["rt", "macros", "process", "io-util", "sync", "time"] }

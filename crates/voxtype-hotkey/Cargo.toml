@@ -1,0 +1,9 @@
+[package]
+name = "voxtype-hotkey"
+version = "0.1.0"
+edition = "2021"
+description = "Evdev hotkey helper for voxtype — watches for key press/release and triggers voxtype record start/stop"
+
+[dependencies]
+evdev = "0.12"
+libc = "0.2"

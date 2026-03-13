@@ -1,0 +1,3 @@
+[workspace]
+members = ["crates/voxtype-tray", "crates/voxtype-hotkey"]
+resolver = "2"
